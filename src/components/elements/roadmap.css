@@ -1,0 +1,14 @@
+.roadmap-img{
+    width: 888px;
+    height: 296px;
+}
+.roadmap-img-two{
+    width: 584px;
+    height: 335px;
+}
+.roadmap-btn{
+    background-color: #FFC107FF;
+}
+.roadbg{
+    background-image: url('../../media/tokenbg.png');
+}

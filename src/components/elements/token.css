@@ -1,0 +1,11 @@
+.tokenbg{
+    background-image: url('../../media/tokenbg.png');
+    height: 80vh;
+}
+.token-img{
+    background-image: url('../../media/tokenbase.png');
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}

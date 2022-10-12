@@ -1,0 +1,10 @@
+.platfoam-para{
+    font-size: 24px;
+}
+.platfoam-img{
+    width: 730px;
+    height: 600px;
+}
+.platfoambg{
+    background-image: url('../../media/platfoambg.png');
+}

@@ -1,0 +1,36 @@
+.hero-bg{
+    background-image: url('../../media/herobg.png');
+    background-size: cover;
+    height: 90vh;
+}
+.hero-h, .hero-p{
+    color: white;
+}
+.hero-hr{
+    border-color: white;
+    font-weight: bolder;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.hero-img{
+    width: 540px;
+    height: 455px;
+}
+.hero-btn{
+    width: 100%;
+    font-size: 20px;
+    /* padding: 10px 10px; */
+    border: none;
+    background-color:  #FFC107FF;
+    border-radius: 3px;
+}
+.hero-btn-two{
+    background-color: #dc3545;
+    color: white;
+    
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.hero-top{
+    padding-top: 100px;
+}
