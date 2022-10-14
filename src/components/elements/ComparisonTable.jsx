@@ -17,7 +17,7 @@ const ComparisonTable = () => {
               </p>
             </div>
             <div className="col-lg-12">
-              <table class="table">
+              <table class="table table-light table-striped table-lg">
                 <tbody>
                   <tr>
                     <td>&nbsp;</td>
@@ -43,127 +43,128 @@ const ComparisonTable = () => {
                       />
                     </td>
                   </tr>
+                  <tr >
+                    
+                    <td className=" py-3 fw-bold ps-3">Automated Market Maker</td>
+                    <td className="text-center py-3 ">
+                      
+                      <FaCheck />
+                    </td>
+                    <td className="text-center py-3">
+                      
+                      <FaCheck />
+                    </td>
+                    <td className="text-center py-3">
+                      
+                      <FaCheck />
+                    </td>
+                  </tr>
                   <tr>
-                    <th scope="row">Automated Market Maker</th>
-                    <td className="text-center ">
+                    <td className=" py-3 fw-bold ps-3">Spot Trading</td>
+                    <td className="text-center py-3">
                       {" "}
                       <FaCheck />{" "}
                     </td>
-                    <td className="text-center">
+                    <td className="text-center py-3">
                       {" "}
                       <FaCheck />{" "}
                     </td>
-                    <td className="text-center">
+                    <td className="text-center py-3">
                       {" "}
                       <FaCheck />{" "}
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">Spot Trading</th>
-                    <td className="text-center">
-                      {" "}
-                      <FaCheck />{" "}
-                    </td>
-                    <td className="text-center">
-                      {" "}
-                      <FaCheck />{" "}
-                    </td>
-                    <td className="text-center">
-                      {" "}
-                      <FaCheck />{" "}
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Futures Trading</th>
-                    <td className="text-center">
+                    <td className=" py-3  ps-3 fw-bold">Futures Trading</td>
+                    <td className="text-center py-3">
                       {" "}
                       <GiCrossMark />{" "}
                     </td>
-                    <td className="text-center">
+                    <td className="text-center py-3">
                       {" "}
                       <GiCrossMark />{" "}
                     </td>
-                    <td className="text-center">
+                    <td className="text-center py-3">
                       {" "}
                       <FaCheck />{" "}
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">Governance</th>
-                    <td className="text-center">
+                    <td className=" py-3 ps-3 fw-bold">Governance</td>
+                    <td className="text-center py-3">
                       {" "}
                       <FaCheck />{" "}
                     </td>
-                    <td className="text-center">
+                    <td className="text-center py-3">
                       {" "}
                       <FaCheck />{" "}
                     </td>
-                    <td className="text-center">
+                    <td className="text-center py-3">
                       {" "}
                       <FaCheck />{" "}
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">Leveraged Trading</th>
-                    <td className="text-center">
+                    <td className=" py-3 ps-3 fw-bold">Leveraged Trading</td>
+                    <td className="text-center py-3">
                       {" "}
                       <GiCrossMark />{" "}
                     </td>
-                    <td className="text-center">
+                    <td className="text-center py-3">
                       {" "}
                       <GiCrossMark />{" "}
                     </td>
-                    <td className="text-center">
+                    <td className="text-center py-3">
                       {" "}
                       <FaCheck />{" "}
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">Gas Fees</th>
-                    <td className="text-center"> $71.53 </td>
-                    <td className="text-center"> $0.42 </td>
-                    <td className="text-center"> $0.42 </td>
+                    <td className=" py-3 ps-3 fw-bold">Gas Fees</td>
+                    <td className="text-center py-3"> $71.53 </td>
+                    <td className="text-center py-3"> $0.42 </td>
+                    <td className="text-center py-3"> $0.42 </td>
                   </tr>
                   <tr>
-                    <th scope="row">Inflationary</th>
-                    <td className="text-center">
+                    <td className=" py-3  ps-3 fw-bold">Inflationary</td>
+                    <td className="text-center py-3">
                       {" "}
                       <FaCheck />{" "}
                     </td>
-                    <td className="text-center">
+                    <td className="text-center py-3">
                       {" "}
                       <FaCheck />{" "}
                     </td>
-                    <td className="text-center">
+                    <td className="text-center py-3">
                       {" "}
                       <GiCrossMark />{" "}
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">Deflationary</th>
-                    <td className="text-center">
+                    <td className=" py-3  ps-3 fw-bold">Deflationary</td>
+                    <td className="text-center py-3">
                       {" "}
                       <GiCrossMark />
                     </td>
-                    <td className="text-center">
+                    <td className="text-center py-3">
                       <GiCrossMark />{" "}
                     </td>
-                    <td className="text-center">
+                    <td className="text-center py-3">
                       {" "}
                       <FaCheck />{" "}
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row">Fixed Supply</th>
-                    <td className="text-center">
+                    <td className=" py-3  ps-3 fw-bold">Fixed Supply</td>
+                    <td className="text-center py-3">
                       {" "}
                       <FaCheck />{" "}
                     </td>
-                    <td className="text-center">
+                    <td className="text-center py-3">
                       {" "}
                       <GiCrossMark />{" "}
                     </td>
-                    <td className="text-center">
+                    <td className="text-center py-3">
                       {" "}
                       <FaCheck />{" "}
                     </td>

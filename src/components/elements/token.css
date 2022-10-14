@@ -1,6 +1,7 @@
 .tokenbg{
     background-image: url('../../media/tokenbg.png');
-    height: 80vh;
+    height: 120vh;
+
 }
 .token-img{
     background-image: url('../../media/tokenbase.png');
@@ -8,4 +9,57 @@
     width: 100%;
     background-repeat: no-repeat;
     padding-bottom: 100px;
+    position: relative;
+}
+.token-img-two{
+    background-image: url('../../media/token-hover.png');
+    position: relative;
+    height: 50vh;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+}
+.text{
+    position: relative;
+}
+.text-three{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-300%) translateY(280%);
+}
+.text-four{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(295%) translateY(280%);
+}
+.text-one{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-400%) translateY(5%);
+}
+.text-two{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(140%) translateY(10%);
+}
+.centertxt{
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    
+}
+.animated{
+    animation: up-down 1s  ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down {
+    0%{
+        transform : translateY(-60px);
+    }
+    100%{
+        transform : translateY(-80px);
+    }
 }

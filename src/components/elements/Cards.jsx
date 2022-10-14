@@ -6,10 +6,10 @@ const Cards = () => {
     <>
       <div className="container my-5 py-5">
         <div className="row">
-          <div className="col-12 d-flex ">
-            <div className="col-lg-4">
-              <div className="card ">
-                <div className="card-body d-flex flex-column align-items-center">
+          <div className="col-lg-12 d-flex gap-3 ">
+            <div className="col-lg-4 col-sm-12 ">
+              <div className="other-card ">
+                <div className=" d-flex flex-column align-items-center">
                   <div>
                     <img
                       className="card-img"
@@ -27,9 +27,9 @@ const Cards = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
-              <div className="card ">
-                <div className="card-body d-flex flex-column align-items-center">
+            <div className="col-lg-4 col-sm-12">
+              <div className=" shadow-card">
+                <div className=" d-flex flex-column align-items-center">
                   <div>
                     <img
                       className="card-img"
@@ -47,9 +47,9 @@ const Cards = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
-              <div className="card ">
-                <div className="card-body d-flex flex-column align-items-center ">
+            <div className="col-lg-4 col-sm-12">
+              <div className="other-card ">
+                <div className=" d-flex flex-column align-items-center ">
                   <div>
                     <img
                       className="card-img"
@@ -68,10 +68,10 @@ const Cards = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 d-flex ">
-            <div className="col-lg-4">
-              <div className="card ">
-                <div className="card-body d-flex flex-column align-items-center">
+          <div className="col-lg-12 d-flex gap-3 mt-3">
+            <div className="col-lg-4 col-sm-12">
+              <div className=" shadow-card">
+                <div className=" d-flex flex-column align-items-center">
                   <div>
                     <img
                       className="card-img"
@@ -88,9 +88,9 @@ const Cards = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
-              <div className="card ">
-                <div className="card-body d-flex flex-column align-items-center">
+            <div className="col-lg-4 col-sm-12">
+              <div className=" other-card pb-4">
+                <div className=" d-flex flex-column align-items-center">
                   <div>
                     <img
                       className="card-img"
@@ -106,9 +106,9 @@ const Cards = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
-              <div className="card ">
-                <div className="card-body d-flex flex-column align-items-center">
+            <div className="col-lg-4 col-sm-12">
+              <div className="shadow-card">
+                <div className=" d-flex flex-column align-items-center">
                   <div>
                     <img
                       className="card-img"
@@ -116,7 +116,7 @@ const Cards = () => {
                       alt=""
                     />
                   </div>
-                  <h5 className="fw-bold text-center">Security</h5>
+                  <h5 className="fw-bold text-center ">Security</h5>
                   <p className="text-center">
                     While other projects are getting DNS hijacked, we ensure the
                     security of our platform from DNS all the way to Smart

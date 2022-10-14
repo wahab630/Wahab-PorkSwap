@@ -11,10 +11,10 @@ const Utilites = () => {
               $PSWAP <span className="video-head"> Utilities</span>
             </h1>
           </div>
-          <div className="col-lg-12 d-flex ">
-            <div className="col-lg-4">
-              <div class="card">
-                <div class="card-body">
+          <div className="col-lg-12 d-flex gap-3">
+            <div className="col-lg-4 ">
+              <div class=" utility-card  p-4">
+                <div class="">
                   <div>
                     <img
                       className="utilites-card-img"
@@ -33,8 +33,8 @@ const Utilites = () => {
               </div>
             </div>
             <div className="col-lg-4">
-              <div class="card">
-                <div class="card-body">
+              <div class="utility-card p-4">
+                <div class="">
                   <div>
                     <img
                       className="utilites-card-img"
@@ -53,8 +53,8 @@ const Utilites = () => {
               </div>
             </div>
             <div className="col-lg-4">
-              <div class="card">
-                <div class="card-body">
+              <div class=" utility-card p-4">
+                <div class="">
                   <div>
                     <img
                       className="utilites-card-img"

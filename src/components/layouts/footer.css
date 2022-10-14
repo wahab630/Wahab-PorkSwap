@@ -5,6 +5,8 @@
 .footercolor{
     background-color:#12436b ;
     color: white;
+    position: relative;
+    z-index: 8;
 }
 .footer-line{
     border: 1px solid white ;

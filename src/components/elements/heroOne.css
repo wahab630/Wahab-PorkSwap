@@ -2,6 +2,11 @@
     background-image: url('../../media/herobg.png');
     background-size: cover;
     height: 90vh;
+    
+}
+.particles-sect{
+    position: absolute;
+    z-index: 2;
 }
 .hero-h, .hero-p{
     color: white;
@@ -19,7 +24,9 @@
 .hero-btn{
     width: 100%;
     font-size: 20px;
-    /* padding: 10px 10px; */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
     border: none;
     background-color:  #FFC107FF;
     border-radius: 3px;
@@ -27,9 +34,10 @@
 .hero-btn-two{
     background-color: #dc3545;
     color: white;
-    
-    padding-left: 40px;
-    padding-right: 40px;
+    width: 170px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
 }
 .hero-top{
     padding-top: 100px;

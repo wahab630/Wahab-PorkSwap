@@ -18,6 +18,7 @@ const Home = () => {
     <>
    
     <HeroOne/>
+    <div className="others">
     <Firstcomp/>
     <Cards/>
     <Secondcomp/>
@@ -28,6 +29,7 @@ const Home = () => {
      <ComparisonTable/> 
     <Roadmap/>
     <Faqs/>
+    </div>
     </>
   )
 }

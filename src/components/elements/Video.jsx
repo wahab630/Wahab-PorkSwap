@@ -9,7 +9,7 @@ const Video = () => {
         <div className="container pb-5">
           <div className="row">
             <div className="col-lg-12">
-              <h1 className="text-center my-5">
+              <h1 className="text-center fw-bold my-5">
                 {" "}
                 How It <span className="video-head"> Works</span>{" "}
               </h1>

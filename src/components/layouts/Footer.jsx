@@ -5,7 +5,7 @@ import { FaMedium,FaTwitter,FaFacebookF,FaYoutube ,FaTelegram} from "react-icons
 const Footer = () => {
   return (
     <>
-      <div className="footercolor">
+      <div className="footercolor  ">
         <div className="container pt-5">
           <div className="row">
             <div className="col-lg-3 pt-2">

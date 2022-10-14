@@ -7,54 +7,76 @@ const Token = () => {
       <div className="tokenbg">
         <div className="container">
           <div className="row ">
-            <div className="col-lg-12">
+            <div className="col-lg-12 py-5 ">
               <h1 className="text-center fw-bold my-5">
                 Token <span className="video-head">Distribution</span>
               </h1>
             </div>
             <div className="col-lg-10 m-auto py-5">
               <div className="col token-img ">
-                <div class="position-relative">
-                  <div class="position-absolute top-0 start-0">
-                    <h5>
-                      10%
+                <div className="token-img-two">
+                <div class="text">
+                  <div class="text-three">
+                    <h5 className="text-center">
+                     <strong>10%</strong> 
                       <br />
-                      Growth Hacking
+                      <span>
+                        <strong>
+                        Growth Hacking
+                        </strong>
+                        </span> 
                     </h5>
                   </div>
-                  <div class="position-absolute top-100 end-0">
-                    <h5>
-                      20%
+                  <div class="text-four">
+                  <h5 className="text-center">
+                     <strong>20%</strong> 
                       <br />
-                      Public Sale <br />
+                      <span>
+                        <strong>
+                        Public Sale
+                        </strong>
+                        </span> 
                     </h5>
                   </div>
-                  <div class="position-absolute top-50 start-50"></div>
-                  <div class="position-absolute bottom-50 end-50">
                   
-                    <h5>
-                      50% <br />
-                      Liquidity Rewards <br /> (Locked)
+                  <div class="centertxt animated">
+                  
+                  <h5 className="text-center">
+                     <strong>50%</strong> 
+                      <br />
+                      <span>
+                        <strong>
+                        Liquidity Rewards  <br />(Locked)
+                        </strong>
+                        </span> 
                     </h5>
                   </div>
-                  <div class="position-absolute bottom-0 start-0">
+                  <div class="text-one">
                     
-                    <h5>
-                      10%
+                  <h5 className="text-center">
+                     <strong>10%</strong> 
                       <br />
-                      Liquidity
+                      <span>
+                        <strong>
+                        Liquidity
+                        </strong>
+                        </span> 
                     </h5>
                   </div>
-                  <div class="position-absolute bottom-0 end-0">
-                    <h5>
-                      10%
+                  <div class="text-two">
+                  <h5 className="text-center">
+                     <strong>10%</strong> 
                       <br />
-                      Team - locked
+                      <span>
+                        <strong>
+                        Team - locked
+                        </strong>
+                        </span> 
                     </h5>
                   </div>
                 </div>
-
-                <div></div>
+                </div>
+                
               </div>
             </div>
           </div>

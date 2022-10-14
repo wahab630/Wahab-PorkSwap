@@ -2,8 +2,8 @@
     font-size: 24px;
 }
 .platfoam-img{
-    width: 730px;
-    height: 600px;
+    width: 100%;
+    height: auto;
 }
 .platfoambg{
     background-image: url('../../media/platfoambg.png');
