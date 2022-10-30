@@ -12,7 +12,7 @@ const HeroOne = () => {
         </div>
     
         
-        <div className="container ">
+        <div className="container hero-container ">
           <div className="row hero-top">
             <div className="col-md-6 col-lg-6 col-xs-12 pt-lg-5 mt-lg-4">
               <h1 className="hero-h fw-bold">

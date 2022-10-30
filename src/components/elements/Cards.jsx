@@ -5,9 +5,9 @@ const Cards = () => {
   return (
     <>
       <div className="container my-5 py-5">
-        <div className="row">
-          <div className="col-lg-12 d-flex gap-3 ">
-            <div className="col-lg-4 col-sm-12 ">
+        <div className="row d-flex ">
+         
+            <div className="col-lg-4 col-sm-12">
               <div className="other-card ">
                 <div className=" d-flex flex-column align-items-center">
                   <div>
@@ -67,8 +67,10 @@ const Cards = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-lg-12 d-flex gap-3 mt-3">
+       
+          
+        </div>
+        <div className=" row d-flex  mt-3">
             <div className="col-lg-4 col-sm-12">
               <div className=" shadow-card">
                 <div className=" d-flex flex-column align-items-center">
@@ -126,7 +128,6 @@ const Cards = () => {
               </div>
             </div>
           </div>
-        </div>
       </div>
     </>
   );

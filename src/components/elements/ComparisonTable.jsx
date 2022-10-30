@@ -16,7 +16,10 @@ const ComparisonTable = () => {
                 data.
               </p>
             </div>
-            <div className="col-lg-12">
+           
+          </div>
+          <div className="row">
+          <div className="col-lg-12">
               <table class="table table-light table-striped table-lg">
                 <tbody>
                   <tr>

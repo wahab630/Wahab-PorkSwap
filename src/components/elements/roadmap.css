@@ -1,10 +1,10 @@
 .roadmap-img{
-    width: 888px;
-    height: 296px;
+    max-width: 80%;
+    height: auto;
 }
 .roadmap-img-two{
-    width: 584px;
-    height: 335px;
+    max-width: 90%;
+    height: auto;
 }
 .roadmap-btn{
     background-color: #FFC107FF;

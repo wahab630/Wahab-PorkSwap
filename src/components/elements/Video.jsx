@@ -1,5 +1,4 @@
 import React from "react";
-// import './videoOne.css ';
 import "./bgvideo.css";
 
 const Video = () => {
@@ -10,8 +9,8 @@ const Video = () => {
           <div className="row">
             <div className="col-lg-12">
               <h1 className="text-center fw-bold my-5">
-                {" "}
-                How It <span className="video-head"> Works</span>{" "}
+               
+                How It <span className="video-head"> Works</span>
               </h1>
             </div>
             <div className="col-lg-12">
